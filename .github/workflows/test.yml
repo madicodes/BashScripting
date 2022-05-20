@@ -10,7 +10,7 @@ on:
 
 jobs:
   unit-testttttttttt:
-    name: Junit test results
+    name:  TEST RESULTS 
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
